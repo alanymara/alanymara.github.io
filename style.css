@@ -59,7 +59,7 @@ h2 {
 
 a:hover {
   background-color: #eddcd2;
-  color: #023047;
+  color: #1472a1;
 }
 
 /*Menu Hamburger*/
@@ -214,12 +214,12 @@ a:hover {
   align-items: center;
   justify-content: center;
   background-color: #023047;
-  background-image: url(/imagens/3.png);
+  background-image: url(/imagens/2.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   filter: grayscale(0.5);
-  color: #023047;
+  color: #e7e7e7;
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
@@ -237,6 +237,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   position: relative;
+  font-size: 5px;
 }
 
 .card-wrapper::before {
@@ -252,7 +253,7 @@ a:hover {
 }
 
 .card-wrapper h2 {
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 4px;
   margin: 0;
